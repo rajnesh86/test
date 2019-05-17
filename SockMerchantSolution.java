@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 //Sample Program
 public class SockMerchantSolution {
-
+	
 	static int sockMerchant(int n, int[] ar) {
 		int matchCount = 0;
 		int currentColor = 0;
@@ -25,7 +25,7 @@ public class SockMerchantSolution {
 	}
 
 	private static final Scanner scanner = new Scanner(System.in);
-
+	//Main Method
 	public static void main(String[] args) throws IOException {
 
 		int n = scanner.nextInt();
