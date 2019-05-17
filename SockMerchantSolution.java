@@ -3,7 +3,7 @@ package com.practise;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//Sample Program
 public class SockMerchantSolution {
 
 	static int sockMerchant(int n, int[] ar) {
