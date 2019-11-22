@@ -47,5 +47,4 @@ public class SockMerchantSolution {
 
 		scanner.close();
 	}
-
 }
