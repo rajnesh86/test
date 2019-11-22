@@ -6,6 +6,7 @@ import java.util.Scanner;
 //Sample Program
 public class SockMerchantSolution {
 	
+	//Local Method
 	static int sockMerchant(int n, int[] ar) {
 		int matchCount = 0;
 		int currentColor = 0;
@@ -35,14 +36,14 @@ public class SockMerchantSolution {
 
 		String[] arItems = scanner.nextLine().split(" ");
 		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
+		//For Loop
 		for (int i = 0; i < n; i++) {
 			int arItem = Integer.parseInt(arItems[i]);
 			ar[i] = arItem;
 		}
 
 		int result = sockMerchant(n, ar);
-
+		//Print Statement
 		System.out.println(result);
 
 		scanner.close();
